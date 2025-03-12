@@ -1,0 +1,7 @@
+GCD.java:59: warning: The prover cannot establish an assertion (LoopInvariantBeforeLoop) in method gcd
+		//@ maintaining result <= num1 && result <= num2;
+		    ^
+error: An internal JML error occurred, possibly recoverable.  Please report the bug with as much information as you can.
+  Reason: Unexpected result when querying SMT solver for reason for an unknown result: (error "Error writing to solver: (get-info :reason-unknown) java.io.IOException: Broken pipe")
+1 error
+1 warning

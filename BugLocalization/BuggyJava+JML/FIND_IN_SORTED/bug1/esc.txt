@@ -1,0 +1,52 @@
+FIND_IN_SORTED.java:2: error: illegal start of type
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+        ^
+FIND_IN_SORTED.java:2: error: ';' expected
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+         ^
+FIND_IN_SORTED.java:2: error: <identifier> expected
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+                  ^
+FIND_IN_SORTED.java:2: error: illegal start of type
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+                      ^
+FIND_IN_SORTED.java:2: error: <identifier> expected
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+                       ^
+FIND_IN_SORTED.java:2: error: ';' expected
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+                          ^
+FIND_IN_SORTED.java:2: error: illegal start of type
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+                               ^
+FIND_IN_SORTED.java:2: error: ';' expected
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+                                       ^
+FIND_IN_SORTED.java:2: error: <identifier> expected
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+                                              ^
+FIND_IN_SORTED.java:2: error: <identifier> expected
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+                                                     ^
+FIND_IN_SORTED.java:2: error: <identifier> expected
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+                                                                   ^
+FIND_IN_SORTED.java:2: error: cannot find symbol
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+             ^
+  symbol:   class start
+  location: class FIND_IN_SORTED
+FIND_IN_SORTED.java:2: error: cannot find symbol
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+                                           ^
+  symbol:   class end
+  location: class FIND_IN_SORTED
+FIND_IN_SORTED.java:2: error: cannot find symbol
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+                                                  ^
+  symbol:   class end
+  location: class FIND_IN_SORTED
+FIND_IN_SORTED.java:2: error: package arr does not exist
+    /*@ 0 <= start && 0 <= end && start <= end && end <= arr.length;
+                                                            ^
+15 errors

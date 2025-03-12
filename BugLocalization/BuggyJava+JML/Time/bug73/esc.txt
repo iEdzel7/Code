@@ -1,0 +1,10 @@
+
+
+
+Time.java:294: warning: The prover cannot establish an assertion (Postcondition: Time.java:283: ) in method timeOptions
+				return null;
+				^
+Time.java:283: warning: Associated declaration: Time.java:294: 
+    public Time timeOptions(Time start, Time stop, int sel) {
+                ^
+2 warnings

@@ -1,0 +1,19 @@
+
+StudentEnrollment.java:226: warning: The prover cannot establish an assertion (ArithmeticOperationRange) in method payTuitionWithDebitCard:  overflow in int sum
+            tuitionBalance += payment; // tuitionBalance -= payment;
+                           ^
+
+StudentEnrollment.java:223: warning: The prover cannot establish an assertion (InvariantExit: StudentEnrollment.java:12: ) in method payTuitionWithDebitCard
+    private /*@ spec_public @*/ void payTuitionWithDebitCard(int payment) 
+                                     ^
+StudentEnrollment.java:12: warning: Associated declaration: StudentEnrollment.java:223: 
+    /*@ public invariant tuitionBalance <= 
+               ^
+
+StudentEnrollment.java:223: warning: The prover cannot establish an assertion (Postcondition: StudentEnrollment.java:217: ) in method payTuitionWithDebitCard
+    private /*@ spec_public @*/ void payTuitionWithDebitCard(int payment) 
+                                     ^
+StudentEnrollment.java:217: warning: Associated declaration: StudentEnrollment.java:223: 
+      @   	ensures tuitionBalance == \old(tuitionBalance - payment);
+          	^
+5 warnings

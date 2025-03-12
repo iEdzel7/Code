@@ -1,0 +1,7 @@
+GCD.java:16: warning: The prover cannot establish an assertion (Postcondition: GCD.java:14: ) in method absolute
+		return (0 <= num) ? num : num; // return (0 <= num) ? num : -num;
+		^
+GCD.java:14: warning: Associated declaration: GCD.java:16: 
+	  @    ensures \result == -num; @*/
+	       ^
+2 warnings

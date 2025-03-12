@@ -1,0 +1,10 @@
+CopyArray.java:7: warning: The prover cannot establish an assertion (Postcondition: CopyArray.java:6: ) in method CopyArray
+    public static void CopyArray(int[] b, int iBegin, int iEnd, int[] a) {
+                       ^
+CopyArray.java:6: warning: Associated declaration: CopyArray.java:7: 
+    //@ ensures (\forall int i; iBegin <= i && i < iEnd; a[i] == b[i]);
+        ^
+CopyArray.java:9: warning: The prover cannot establish an assertion (LoopInvariant) in method CopyArray
+        //@ maintaining iBegin <= k && k <= iEnd;
+            ^
+3 warnings

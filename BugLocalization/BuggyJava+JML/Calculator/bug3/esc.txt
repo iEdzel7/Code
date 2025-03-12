@@ -1,0 +1,10 @@
+Calculator.java:62: warning: The prover cannot establish an assertion (Postcondition: Calculator.java:12: ) in method calculate
+        return output;
+        ^
+Calculator.java:12: warning: Associated declaration: Calculator.java:62: 
+      @    ensures \result == num1 * num2;
+           ^
+Calculator.java:48: warning: The prover cannot establish an assertion (PossiblyDivideByZero) in method calculate
+            	output = num1 / num2;//output = num1 * num2;
+            	              ^
+3 warnings

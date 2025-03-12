@@ -1,0 +1,13 @@
+LCM.java:49: warning: The prover cannot establish an assertion (Postcondition: LCM.java:16: ) in method lcm
+		return result;
+		^
+LCM.java:16: warning: Associated declaration: LCM.java:49: 
+      @    ensures 0 < \result ==> (div(\result, pNum2) == 0 && div(\result, pNum2) == 0);
+           ^
+LCM.java:51: warning: The prover cannot establish an assertion (Postcondition: LCM.java:18: ) in method lcm
+	return -1;
+	^
+LCM.java:18: warning: Associated declaration: LCM.java:51: 
+      @    ensures \result == -1 ==> (\forall int k; max <= k && k <= Integer.MAX_VALUE; div(k, pNum1) == 0 ==> div(k, pNum2) != 0); 
+           ^
+4 warnings

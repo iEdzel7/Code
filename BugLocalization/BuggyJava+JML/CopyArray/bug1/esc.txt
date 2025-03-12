@@ -1,0 +1,4 @@
+CopyArray.java:9: warning: The prover cannot establish an assertion (LoopInvariant) in method CopyArray
+        //@ maintaining iBegin <= k && k <= iEnd;
+            ^
+1 warning

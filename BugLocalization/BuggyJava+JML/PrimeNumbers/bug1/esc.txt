@@ -1,0 +1,4 @@
+PrimeNumbers.java:9: warning: The prover cannot establish an assertion (ArithmeticOperationRange) in method div:  int multiply overflow
+        private /*@ spec_public @*/ static boolean div(int n, int d) { return n*d == 0; }//return n%d == 0; }
+                                                                               ^
+1 warning

@@ -1,0 +1,41 @@
+
+
+Alphabet.java:243: warning: The prover cannot establish an assertion (Postcondition: Alphabet.java:212: ) in method driver
+		return null;
+		^
+Alphabet.java:212: warning: Associated declaration: Alphabet.java:243: 
+   public boolean[] driver(int op) 
+                    ^
+
+
+Alphabet.java:243: warning: The prover cannot establish an assertion (Postcondition: Alphabet.java:212: ) in method driver
+		return null;
+		^
+Alphabet.java:212: warning: Associated declaration: Alphabet.java:243: 
+   public boolean[] driver(int op) 
+                    ^
+
+
+Alphabet.java:243: warning: The prover cannot establish an assertion (Postcondition: Alphabet.java:212: ) in method driver
+		return null;
+		^
+Alphabet.java:212: warning: Associated declaration: Alphabet.java:243: 
+   public boolean[] driver(int op) 
+                    ^
+
+
+Alphabet.java:243: warning: The prover cannot establish an assertion (Postcondition: Alphabet.java:212: ) in method driver
+		return null;
+		^
+Alphabet.java:212: warning: Associated declaration: Alphabet.java:243: 
+   public boolean[] driver(int op) 
+                    ^
+
+
+Alphabet.java:243: warning: The prover cannot establish an assertion (Postcondition: Alphabet.java:212: ) in method driver
+		return null;
+		^
+Alphabet.java:212: warning: Associated declaration: Alphabet.java:243: 
+   public boolean[] driver(int op) 
+                    ^
+10 warnings

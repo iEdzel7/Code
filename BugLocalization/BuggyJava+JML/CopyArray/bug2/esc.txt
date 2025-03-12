@@ -1,0 +1,7 @@
+CopyArray.java:12: warning: The prover cannot establish an assertion (ArithmeticOperationRange) in method CopyArray:  overflow in int sum
+        while (iEnd + k > 0) {//while (iEnd - k > 0) {
+                    ^
+CopyArray.java:9: warning: The prover cannot establish an assertion (LoopInvariant) in method CopyArray
+        //@ maintaining iBegin <= k && k <= iEnd;
+            ^
+2 warnings

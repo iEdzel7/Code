@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Analysis - CodeLytics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='codelytics.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="{{ url_for('static', filename='icon.png') }}" alt="CodeLytics Logo" /> 
+    </div>
+    <nav class="menu">
+      <a href="/">Home</a>
+      <a href="/image">Image Analysis</a>
+      <a href="/text">Text Readability</a>
+  </nav>
+    <div class="actions">
+      <button class="login-btn">Login</button>
+      <button class="try-btn">Try for Free</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="container-title3">Text Readability</div>
+    <textarea class="code-input" id="codeInput" placeholder="Enter your code here..."></textarea>
+    
+    <button class="analyze-button" onclick="analyzeCode()">Analyze Code</button>
+    
+    <div class="section-title">Analysis Result</div>
+    <div class="section-title1">Output</div>
+    <div class="result-section">
+      <div class="result-box" id="analysisResult">
+        <!-- Readability score will appear here -->
+      </div>
+      <div class="result-box">
+        <!-- Execution output will appear here -->
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function analyzeCode() {
+    let code = document.getElementById("codeInput").value;
+
+    fetch("http://127.0.0.1:5000/analyze", {  // Flask is running on localhost
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ code: code })
+    })
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById("analysisResult").innerHTML = `
+            <p><strong>Readability Score:</strong> ${data.score}/5</p>
+            <p><strong>Bug Localization Prediction:</strong> ${data.bug_status}</p>
+            <p><strong>Time Complexity Estimation:</strong> ${data.complexity_analysis}</p>
+            <p><strong>Space Complexity Estimation:</strong> ${data.space_complexity}</p>
+        `;
+    })
+        .catch(error => {
+            console.error("Error:", error);
+            document.getElementById("analysisResult").innerHTML = "<p>Error analyzing code.</p>";
+        });
+}
+
+  </script>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo-section">
+        <img src="iconWhite.png" alt="CodeLytics Logo" class="footer-logo">
+        <p class="footer-description">Where Readability Meets Intelligence.</p>
+      </div>
+  
+      <div class="footer-links">
+        <div class="footer-column">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="image.html">Image Analysis</a></li>
+            <li><a href="text.html">Text Readability</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-column">
+          <h4>About Us</h4>
+          <ul>
+            <li><a href="https://drive.google.com/file/d/19w4p0qo3t16tLMbY2FQtKSwSCmeZ3ojW/view?usp=drive_link">Terms and Conditions</a></li>
+            <li><a href="https://drive.google.com/file/d/1Ei67oypdr_paTTkhwFG-eoOmxFI-14sJ/view?usp=drive_link">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <hr class="footer-divider" />
+  
+    <div class="footer-bottom">
+      <p>Copyright © 2025 CodeLytics. Powered by Armengol & Marasigan. All rights reserved.</p>
+      
+      <div class="footer-social-icons">
+        <img src="{{ url_for('static', filename='socials.png') }}" alt="Social Media Icons" class="social-icons-image">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

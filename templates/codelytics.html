@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeLytics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='codelytics.css') }}">
+  </head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="{{ url_for('static', filename='icon.png') }}" alt="CodeLytics Logo" /> 
+        
+    </div>
+    <nav class="menu">
+      <a href="/">Home</a>
+      <a href="/image">Image Analysis</a>
+      <a href="/text">Text Readability</a>
+  </nav>
+  
+    <div class="actions">
+      <button class="login-btn">Login</button>
+      <button class="try-btn">Try for Free</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Enhance Code Readability</h1>
+    <p>CodeLytics improves code clarity and finds bugs. Write cleaner code, fix issues faster, and optimize your development workflow.</p>
+    <div class="buttons">
+      <button onclick="window.location.href='image.html'" class="primary-btn">Try Image Analysis</button>
+      <button onclick="window.location.href='text.html'" class="primary-btn">Try Text Readability</button>
+    </div>
+  </section>
+  <section class="feature-section">
+    <div class="feature-content">
+      <div class="feature-text">
+        <h1>
+          Improve Code Readability,<br>
+          <span class="highlight">Detect Bugs Instantly</span>
+        </h1>
+        <p>
+          CodeLytics enhances code clarity and pinpoints bugs with AI-driven precision for better, cleaner code.
+        </p>
+  
+        <div class="feature-buttons">
+          <button onclick="window.location.href='image.html'" class="btn white-btn">Try Image Analysis</button>
+          <button onclick="window.location.href='text.html'" class="btn white-btn">Try Text Readability</button>
+        </div>
+      </div>
+  
+      <div class="feature-image">
+        <img src="{{ url_for('static', filename='Scroll Down P1.png') }}" alt="Diagram explaining CodeLytics process">
+
+      </div>
+    </div>
+  </section>
+
+  <section class="clean-code-section">
+    <div class="clean-code-container">
+      <div class="text-content">
+        <h2>Clean & Readable Code</h2>
+        <p>
+          CodeLytics ensures clarity and accuracy, optimizing your code while detecting bugs with AI precision.
+        </p>
+        <div class="buttons">
+          <button onclick="window.location.href='image.html'" class="btn btn-black">Try Image Analysis</button>
+          <button onclick="window.location.href='text.html'" class="btn btn-black">Try Text Readability</button>
+        </div>
+      </div>
+      <div class="image-content">
+        <img src="{{ url_for('static', filename='Scroll Down P2.png') }}" alt="Diagram explaining CodeLytics process">
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function analyzeCode() {
+        let code = document.getElementById("codeInput").value;
+
+        fetch("/analyze", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ code: code })
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("analysisResult").innerHTML = 
+                `<p><strong>Readability Score:</strong> ${data.score}/5</p>`;
+        })
+        .catch(error => {
+            console.error("Error:", error);
+            document.getElementById("analysisResult").innerHTML = "<p>Error analyzing code.</p>";
+        });
+    }
+  </script>
+  
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo-section">
+        <img src="iconWhite.png" alt="CodeLytics Logo" class="footer-logo">
+        <p class="footer-description">Where Readability Meets Intelligence.</p>
+      </div>
+  
+      <div class="footer-links">
+        <div class="footer-column">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="image.html">Image Analysis</a></li>
+            <li><a href="text.html">Text Readability</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-column">
+          <h4>About Us</h4>
+          <ul>
+            <li><a href="https://drive.google.com/file/d/19w4p0qo3t16tLMbY2FQtKSwSCmeZ3ojW/view?usp=drive_link">Terms and Conditions</a></li>
+            <li><a href="https://drive.google.com/file/d/1Ei67oypdr_paTTkhwFG-eoOmxFI-14sJ/view?usp=drive_link">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <hr class="footer-divider" />
+  
+    <div class="footer-bottom">
+      <p>Copyright © 2025 CodeLytics. Powered by Armengol & Marasigan. All rights reserved.</p>
+      
+      <!-- Replace with your social icons image -->
+      <div class="footer-social-icons">
+        <img src="{{ url_for('static', filename='socials.png') }}" alt="Social Media Icons" class="social-icons-image">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

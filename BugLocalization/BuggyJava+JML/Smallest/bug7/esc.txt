@@ -1,0 +1,7 @@
+Smallest.java:19: warning: The prover cannot establish an assertion (Postcondition: Smallest.java:3: ) in method Smallest
+        return (smallest == 0 ? 1 : 0);//smallest;
+        ^
+Smallest.java:3: warning: Associated declaration: Smallest.java:19: 
+    //@ ensures -1 < \result ==> (\forall int i; 0 <= i && i < a.length; a[\result] <= a[i]);
+        ^
+2 warnings

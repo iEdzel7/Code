@@ -1,0 +1,13 @@
+
+
+
+PrimeNumbers.java:30: warning: The prover cannot establish an assertion (LoopInvariant) in method primeList
+	    @ maintaining count_counter == count;
+	      ^
+
+
+
+PrimeNumbers.java:29: warning: The prover cannot establish an assertion (LoopInvariant) in method primeList
+            @ maintaining 2 <= count && count <= n + 1 && 3 <= num;
+              ^
+2 warnings

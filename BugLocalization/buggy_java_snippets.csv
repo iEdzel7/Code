@@ -1,0 +1,1001 @@
+Code,Category
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" }",Buggy
+public class UndefinedVar { public static void main(String[] args) { System.out.println(value); } },Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } },Buggy
+"public class MissingReturn { public static int add(int a, int b) { int sum = a + b; } }",Buggy
+public class InvalidLoop { public static void main(String[] args) { for(int i = 0; i < 10; i--){ System.out.println(i); } } },Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } }",Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } }",Buggy
+import java.util.ArrayList; public class NoImport { public static void main(String[] args) { ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list); } },Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } },Buggy
+"public class IncorrectArgs { public static void main(String args) { System.out.println(""Wrong main method signature""); } }",Buggy

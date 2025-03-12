@@ -1,0 +1,1001 @@
+Code,Category
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 0",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 1",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 2,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 3",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 4,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 5,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 6",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 7",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 8",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 9",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 10",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 11",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 12,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 13",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 14,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 15,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 16",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 17",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 18",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 19",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 20",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 21",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 22,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 23",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 24,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 25,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 26",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 27",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 28",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 29",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 30",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 31",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 32,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 33",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 34,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 35,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 36",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 37",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 38",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 39",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 40",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 41",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 42,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 43",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 44,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 45,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 46",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 47",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 48",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 49",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 50",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 51",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 52,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 53",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 54,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 55,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 56",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 57",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 58",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 59",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 60",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 61",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 62,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 63",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 64,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 65,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 66",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 67",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 68",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 69",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 70",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 71",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 72,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 73",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 74,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 75,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 76",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 77",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 78",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 79",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 80",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 81",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 82,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 83",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 84,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 85,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 86",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 87",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 88",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 89",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 90",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 91",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 92,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 93",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 94,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 95,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 96",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 97",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 98",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 99",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 100",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 101",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 102,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 103",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 104,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 105,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 106",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 107",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 108",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 109",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 110",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 111",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 112,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 113",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 114,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 115,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 116",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 117",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 118",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 119",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 120",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 121",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 122,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 123",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 124,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 125,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 126",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 127",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 128",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 129",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 130",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 131",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 132,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 133",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 134,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 135,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 136",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 137",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 138",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 139",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 140",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 141",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 142,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 143",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 144,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 145,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 146",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 147",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 148",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 149",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 150",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 151",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 152,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 153",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 154,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 155,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 156",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 157",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 158",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 159",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 160",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 161",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 162,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 163",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 164,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 165,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 166",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 167",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 168",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 169",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 170",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 171",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 172,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 173",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 174,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 175,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 176",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 177",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 178",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 179",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 180",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 181",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 182,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 183",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 184,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 185,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 186",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 187",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 188",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 189",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 190",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 191",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 192,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 193",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 194,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 195,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 196",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 197",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 198",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 199",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 200",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 201",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 202,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 203",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 204,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 205,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 206",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 207",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 208",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 209",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 210",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 211",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 212,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 213",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 214,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 215,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 216",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 217",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 218",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 219",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 220",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 221",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 222,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 223",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 224,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 225,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 226",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 227",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 228",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 229",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 230",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 231",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 232,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 233",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 234,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 235,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 236",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 237",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 238",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 239",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 240",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 241",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 242,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 243",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 244,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 245,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 246",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 247",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 248",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 249",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 250",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 251",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 252,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 253",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 254,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 255,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 256",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 257",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 258",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 259",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 260",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 261",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 262,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 263",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 264,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 265,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 266",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 267",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 268",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 269",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 270",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 271",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 272,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 273",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 274,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 275,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 276",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 277",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 278",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 279",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 280",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 281",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 282,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 283",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 284,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 285,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 286",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 287",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 288",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 289",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 290",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 291",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 292,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 293",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 294,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 295,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 296",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 297",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 298",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 299",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 300",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 301",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 302,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 303",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 304,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 305,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 306",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 307",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 308",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 309",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 310",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 311",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 312,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 313",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 314,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 315,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 316",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 317",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 318",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 319",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 320",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 321",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 322,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 323",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 324,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 325,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 326",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 327",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 328",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 329",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 330",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 331",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 332,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 333",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 334,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 335,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 336",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 337",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 338",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 339",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 340",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 341",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 342,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 343",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 344,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 345,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 346",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 347",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 348",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 349",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 350",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 351",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 352,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 353",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 354,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 355,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 356",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 357",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 358",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 359",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 360",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 361",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 362,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 363",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 364,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 365,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 366",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 367",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 368",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 369",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 370",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 371",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 372,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 373",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 374,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 375,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 376",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 377",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 378",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 379",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 380",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 381",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 382,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 383",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 384,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 385,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 386",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 387",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 388",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 389",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 390",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 391",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 392,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 393",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 394,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 395,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 396",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 397",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 398",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 399",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 400",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 401",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 402,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 403",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 404,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 405,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 406",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 407",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 408",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 409",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 410",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 411",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 412,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 413",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 414,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 415,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 416",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 417",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 418",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 419",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 420",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 421",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 422,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 423",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 424,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 425,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 426",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 427",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 428",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 429",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 430",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 431",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 432,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 433",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 434,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 435,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 436",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 437",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 438",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 439",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 440",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 441",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 442,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 443",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 444,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 445,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 446",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 447",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 448",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 449",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 450",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 451",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 452,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 453",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 454,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 455,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 456",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 457",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 458",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 459",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 460",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 461",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 462,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 463",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 464,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 465,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 466",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 467",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 468",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 469",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 470",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 471",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 472,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 473",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 474,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 475,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 476",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 477",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 478",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 479",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 480",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 481",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 482,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 483",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 484,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 485,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 486",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 487",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 488",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 489",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 490",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 491",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 492,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 493",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 494,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 495,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 496",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 497",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 498",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 499",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 500",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 501",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 502,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 503",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 504,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 505,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 506",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 507",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 508",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 509",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 510",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 511",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 512,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 513",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 514,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 515,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 516",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 517",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 518",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 519",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 520",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 521",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 522,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 523",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 524,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 525,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 526",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 527",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 528",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 529",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 530",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 531",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 532,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 533",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 534,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 535,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 536",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 537",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 538",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 539",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 540",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 541",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 542,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 543",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 544,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 545,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 546",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 547",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 548",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 549",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 550",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 551",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 552,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 553",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 554,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 555,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 556",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 557",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 558",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 559",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 560",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 561",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 562,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 563",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 564,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 565,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 566",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 567",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 568",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 569",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 570",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 571",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 572,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 573",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 574,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 575,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 576",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 577",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 578",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 579",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 580",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 581",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 582,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 583",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 584,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 585,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 586",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 587",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 588",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 589",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 590",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 591",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 592,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 593",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 594,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 595,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 596",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 597",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 598",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 599",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 600",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 601",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 602,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 603",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 604,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 605,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 606",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 607",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 608",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 609",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 610",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 611",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 612,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 613",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 614,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 615,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 616",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 617",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 618",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 619",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 620",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 621",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 622,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 623",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 624,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 625,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 626",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 627",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 628",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 629",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 630",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 631",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 632,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 633",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 634,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 635,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 636",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 637",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 638",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 639",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 640",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 641",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 642,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 643",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 644,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 645,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 646",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 647",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 648",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 649",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 650",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 651",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 652,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 653",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 654,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 655,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 656",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 657",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 658",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 659",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 660",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 661",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 662,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 663",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 664,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 665,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 666",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 667",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 668",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 669",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 670",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 671",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 672,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 673",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 674,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 675,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 676",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 677",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 678",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 679",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 680",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 681",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 682,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 683",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 684,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 685,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 686",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 687",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 688",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 689",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 690",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 691",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 692,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 693",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 694,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 695,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 696",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 697",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 698",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 699",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 700",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 701",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 702,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 703",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 704,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 705,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 706",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 707",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 708",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 709",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 710",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 711",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 712,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 713",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 714,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 715,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 716",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 717",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 718",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 719",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 720",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 721",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 722,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 723",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 724,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 725,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 726",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 727",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 728",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 729",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 730",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 731",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 732,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 733",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 734,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 735,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 736",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 737",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 738",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 739",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 740",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 741",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 742,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 743",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 744,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 745,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 746",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 747",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 748",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 749",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 750",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 751",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 752,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 753",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 754,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 755,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 756",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 757",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 758",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 759",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 760",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 761",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 762,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 763",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 764,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 765,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 766",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 767",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 768",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 769",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 770",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 771",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 772,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 773",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 774,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 775,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 776",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 777",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 778",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 779",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 780",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 781",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 782,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 783",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 784,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 785,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 786",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 787",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 788",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 789",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 790",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 791",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 792,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 793",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 794,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 795,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 796",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 797",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 798",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 799",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 800",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 801",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 802,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 803",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 804,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 805,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 806",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 807",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 808",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 809",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 810",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 811",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 812,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 813",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 814,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 815,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 816",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 817",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 818",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 819",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 820",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 821",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 822,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 823",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 824,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 825,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 826",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 827",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 828",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 829",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 830",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 831",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 832,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 833",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 834,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 835,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 836",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 837",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 838",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 839",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 840",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 841",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 842,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 843",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 844,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 845,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 846",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 847",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 848",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 849",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 850",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 851",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 852,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 853",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 854,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 855,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 856",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 857",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 858",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 859",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 860",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 861",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 862,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 863",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 864,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 865,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 866",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 867",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 868",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 869",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 870",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 871",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 872,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 873",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 874,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 875,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 876",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 877",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 878",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 879",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 880",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 881",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 882,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 883",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 884,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 885,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 886",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 887",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 888",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 889",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 890",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 891",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 892,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 893",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 894,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 895,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 896",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 897",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 898",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 899",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 900",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 901",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 902,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 903",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 904,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 905,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 906",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 907",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 908",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 909",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 910",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 911",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 912,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 913",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 914,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 915,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 916",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 917",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 918",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 919",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 920",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 921",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 922,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 923",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 924,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 925,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 926",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 927",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 928",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 929",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 930",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 931",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 932,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 933",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 934,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 935,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 936",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 937",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 938",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 939",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 940",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 941",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 942,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 943",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 944,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 945,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 946",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 947",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 948",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 949",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 950",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 951",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 952,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 953",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 954,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 955,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 956",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 957",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 958",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 959",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 960",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 961",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 962,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 963",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 964,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 965,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 966",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 967",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 968",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 969",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 970",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 971",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 972,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 973",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 974,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 975,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 976",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 977",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 978",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 979",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 980",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 981",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 982,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 983",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 984,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 985,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 986",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 987",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 988",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 989",Buggy
+"public class MissingSemicolon { public static void main(String[] args) { System.out.println(""Hello"") } } // Bug 990",Buggy
+"public class NoReturn { public static int add(int a, int b) { int sum = a + b; } } // Bug 991",Buggy
+public class DivideByZero { public static void main(String[] args) { int x = 10 / 0; System.out.println(x); } } // Bug 992,Buggy
+"public class InfiniteLoop { public static void main(String[] args) { while(true) { System.out.println(""Looping forever""); } } } // Bug 993",Buggy
+public class NullPointer { public static void main(String[] args) { String str = null; System.out.println(str.length()); } } // Bug 994,Buggy
+public class ArrayOutOfBounds { public static void main(String[] args) { int[] arr = new int[5]; System.out.println(arr[10]); } } // Bug 995,Buggy
+"public class IncorrectCasting { public static void main(String[] args) { int num = (int) ""String""; } } // Bug 996",Buggy
+"public class NoMainMethod { public void notMain() { System.out.println(""No main method here!""); } } // Bug 997",Buggy
+"public class WrongMethod { public static void main(String[] args) { System.out.printn(""Hello, World!""); } } // Bug 998",Buggy
+"public class MissingBracket { public static void main(String[] args) { System.out.println(""Hello"" } } // Bug 999",Buggy

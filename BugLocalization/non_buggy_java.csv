@@ -1,0 +1,1001 @@
+Code,Category
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
+"public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!""); } }",Non-Buggy
+"public class SumCalculator { public static int add(int a, int b) { return a + b; } }",Non-Buggy
+public class Factorial { public static int factorial(int n) { return (n == 0) ? 1 : n * factorial(n - 1); } },Non-Buggy
+"import java.util.Scanner; public class UserInput { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int num = sc.nextInt(); System.out.println(""You entered: "" + num); sc.close(); } }",Non-Buggy
+import java.util.ArrayList; public class ListExample { public static void main(String[] args) { ArrayList<Integer> numbers = new ArrayList<>(); numbers.add(10); numbers.add(20); System.out.println(numbers); } },Non-Buggy
+public class ReverseString { public static String reverse(String str) { return new StringBuilder(str).reverse().toString(); } },Non-Buggy
+public class EvenOdd { public static boolean isEven(int num) { return num % 2 == 0; } },Non-Buggy
+public class Palindrome { public static boolean isPalindrome(String str) { return str.equals(new StringBuilder(str).reverse().toString()); } },Non-Buggy
+public class PrimeCheck { public static boolean isPrime(int num) { if (num < 2) return false; for (int i = 2; i <= Math.sqrt(num); i++) { if (num % i == 0) return false; } return true; } },Non-Buggy
+"public class GCD { public static int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); } }",Non-Buggy
