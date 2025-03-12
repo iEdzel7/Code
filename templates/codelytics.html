@@ -30,8 +30,8 @@
     <h1>Enhance Code Readability</h1>
     <p>CodeLytics improves code clarity and finds bugs. Write cleaner code, fix issues faster, and optimize your development workflow.</p>
     <div class="buttons">
-      <button onclick="window.location.href='image.html'" class="primary-btn">Try Image Analysis</button>
-      <button onclick="window.location.href='text.html'" class="primary-btn">Try Text Readability</button>
+      <button onclick="window.location.href='/image'" class="primary-btn">Try Image Analysis</button>
+      <button onclick="window.location.href='/text'" class="primary-btn">Try Text Readability</button>
     </div>
   </section>
   <section class="feature-section">
@@ -46,8 +46,8 @@
         </p>
   
         <div class="feature-buttons">
-          <button onclick="window.location.href='image.html'" class="btn white-btn">Try Image Analysis</button>
-          <button onclick="window.location.href='text.html'" class="btn white-btn">Try Text Readability</button>
+          <button onclick="window.location.href='/image'" class="btn white-btn">Try Image Analysis</button>
+          <button onclick="window.location.href='/text'" class="btn white-btn">Try Text Readability</button>
         </div>
       </div>
   
@@ -66,8 +66,8 @@
           CodeLytics ensures clarity and accuracy, optimizing your code while detecting bugs with AI precision.
         </p>
         <div class="buttons">
-          <button onclick="window.location.href='image.html'" class="btn btn-black">Try Image Analysis</button>
-          <button onclick="window.location.href='text.html'" class="btn btn-black">Try Text Readability</button>
+          <button onclick="window.location.href='/image'" class="btn btn-black">Try Image Analysis</button>
+          <button onclick="window.location.href='/text'" class="btn btn-black">Try Text Readability</button>
         </div>
       </div>
       <div class="image-content">
@@ -100,16 +100,15 @@
   <footer class="footer">
     <div class="footer-container">
       <div class="footer-logo-section">
-        <img src="iconWhite.png" alt="CodeLytics Logo" class="footer-logo">
+        <img src="{{ url_for('static', filename='iconWhite.png') }}" alt="CodeLytics Logo" class="footer-logo"/> 
         <p class="footer-description">Where Readability Meets Intelligence.</p>
       </div>
-  
       <div class="footer-links">
         <div class="footer-column">
           <h4>Product</h4>
           <ul>
-            <li><a href="image.html">Image Analysis</a></li>
-            <li><a href="text.html">Text Readability</a></li>
+            <li><a href="/image">Image Analysis</a></li>
+            <li><a href="/text">Text Readability</a></li>
           </ul>
         </div>
   
